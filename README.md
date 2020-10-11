@@ -27,13 +27,13 @@ sys/install.sh
 
 Start Snake Pit and Snake services
 ```
-systemctl start snake-pit
-systemctl start snake
+sudo systemctl start snake-pit
+sudo systemctl start snake
 ```
 
 Start Snake Skin (port 3000)
 ```
-systemctl start snake-skin
+sudo systemctl start snake-skin
 ```
 
 To install scale refer scale repo - https://github.com/countercept/snake-scales.
