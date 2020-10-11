@@ -1,5 +1,46 @@
 ![banner](https://github.com/countercept/snake/raw/master/images/banner.png)
 
+# My note for installation
+
+I'm using Ubuntu 20
+
+Install dependencies
+```
+sudo apt-get install libyaml-dev mongodb nodejs npm python3-dev python3-pip redis-server libfuzzy-dev ssdeep git net-tools -y
+```
+
+Fix npm issue
+```
+sudo npm install -g n
+sudo n latest
+sudo npm install -g npm
+hash -d npm
+npm i
+```
+
+Clone snake repo and run install.sh
+```
+git clone https://github.com/countercept/snake.git
+cd snake
+sys/install.sh
+```
+
+Start Snake Pit and Snake services
+```
+systemctl start snake-pit
+systemctl start snake
+```
+
+Start Snake Skin (port 3000)
+```
+systemctl start snake-skin
+```
+
+To install scale refer scale repo - https://github.com/countercept/snake-scales.
+
+
+
+
 # Introduction
 
 Snake is a malware storage zoo that was built out of the need for a centralised and unified storage solution for malicious samples that could seamlessly integrate into the investigation pipeline.
