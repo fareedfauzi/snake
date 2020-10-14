@@ -2,7 +2,7 @@
 
 # My note for installation
 
-Please use Ubuntu 17.02
+Please use Ubuntu 17.02. Run as root ;)
 
 Install dependencies
 ```
