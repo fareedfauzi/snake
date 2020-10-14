@@ -1,5 +1,3 @@
-![banner](https://github.com/countercept/snake/raw/master/images/banner.png)
-
 # My note for installation
 
 Please use Ubuntu 17.02. Run as root ;)
