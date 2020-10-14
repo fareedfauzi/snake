@@ -1,6 +1,6 @@
 # My note for installation
 
-Please use Ubuntu 17.02. Run as root ;)
+Please use Ubuntu 17.02.
 
 Edit `/etc/apt/sources.list` cause Ubuntu 17.02 was no longer support. Replace to `old-releases.ubuntu.com`
 
@@ -29,7 +29,7 @@ Clone snake repo and run install.sh
 ```
 git clone https://github.com/countercept/snake.git
 cd snake
-sys/install.sh
+sys/install.sh (Run as root)
 ```
 
 Start Snake Pit and Snake services
