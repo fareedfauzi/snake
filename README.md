@@ -43,6 +43,26 @@ Start Snake Skin (port 3000)
 sudo systemctl start snake-skin
 ```
 
+Install all scale
+```
+snake install binwalk
+snake install clamav
+snake install cuckoo
+snake install elf
+snake install exiftool
+snake install floss
+snake install office
+snake install pdf
+snake install pefile
+snake install radare2
+snake install rekall
+snake install retdec
+snake install trid
+snake install virustotal
+snake install yara
+snake install volatility
+```
+
 To install scale refer scale repo - https://github.com/countercept/snake-scales.
 
 
