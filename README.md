@@ -2,7 +2,7 @@
 
 # My note for installation
 
-I'm using Ubuntu 20
+Please use Ubuntu 17.02
 
 Install dependencies
 ```
@@ -16,6 +16,14 @@ sudo n latest
 sudo npm install -g npm
 hash -d npm
 npm i
+```
+
+Install python modules
+```
+pip3 install six==1.12
+pip3 install lazy_object_proxy==1.4.*
+pip3 install zipp>=0.5
+pip3 install importlib-metadata
 ```
 
 Clone snake repo and run install.sh
