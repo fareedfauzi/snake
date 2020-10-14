@@ -14,7 +14,6 @@ Fix npm issue
 sudo npm install -g n
 sudo n latest
 sudo npm install -g npm
-hash -d npm
 npm i
 ```
 
