@@ -2,7 +2,7 @@
 
 Please use Ubuntu 17.02. Run as root ;)
 
-Edit `/etc/apt/sources.list` cause Ubuntu 17.02 was no longer support.
+Edit `/etc/apt/sources.list` cause Ubuntu 17.02 was no longer support. Replace to `old-releases.ubuntu.com`
 
 Install dependencies
 ```
