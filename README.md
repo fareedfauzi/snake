@@ -4,6 +4,8 @@
 
 Please use Ubuntu 17.02. Run as root ;)
 
+Edit `/etc/apt/sources.list` cause Ubuntu 17.02 was no longer support.
+
 Install dependencies
 ```
 sudo apt-get install libyaml-dev mongodb nodejs npm python3-dev python3-pip redis-server libfuzzy-dev ssdeep git net-tools -y
